@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="yandex-verification" content="13c83706b58ee80d" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    }
+    video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+
+    .overlay {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      z-index: 1;
+    }
+    h1 {
+      font-size: 10rem;
+    }
+    h3 {
+      font-size: 5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <video autoplay muted loop>
+    <source src="/video.mp4" type="video/mp4">
+  </video>
+  <div class="overlay">
+    <h1 class="logo">NWBASE</h1>
+    <h3>Comming soon</h3>
+  </div>
+</body>
+
+</html>
